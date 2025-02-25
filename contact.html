@@ -27,12 +27,22 @@
             margin-bottom: 20px;
         }
         a {
-            color: #9e9e9e;
-            text-decoration: none;
+            color: #1a73e8; /* Google Blue */
             font-weight: bold;
+            text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+        .section-title {
+            font-size: 1.2em;
+            font-weight: normal;
+            margin-top: 30px;
+        }
+        .form-container {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
         }
     </style>
 </head>
@@ -40,4 +50,20 @@
     <div class="container">
         <h1>Contact Me</h1>
         <p>You can connect with me on LinkedIn:</p>
-        <p><a href="https://www.linkedin.com/in/alistair-birrell/" target="_blank">LinkedIn Profile</a>
+        <p><a href="https://www.linkedin.com/in/alistair-birrell" target="_blank">LinkedIn Profile</a></p>
+
+        <p class="section-title">Or, send me a message:</p>
+
+        <div class="form-container">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctffNBpYixARuTph07qzVAefw95z1MR2LdpRGaapMYiuiweg/viewform?embedded=true"
+                width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a> |
+            <a href="services.html">Services</a> |
+            <a href="privacy.html">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
