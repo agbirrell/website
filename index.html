@@ -18,14 +18,6 @@
             max-width: 800px;
             margin: 0 auto;
         }
-        .form-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 700px;
-    margin: auto;
-}
         h1 {
             font-size: 2em;
             margin-bottom: 10px;
@@ -34,18 +26,25 @@
             font-size: 1.2em;
             margin-bottom: 30px;
         }
-        .contact-form {
-            margin-top: 30px;
-        }
-        .privacy-link {
-            margin-top: 30px;
-            font-size: 0.9em;
-        }
-        a {
+        .link {
             color: #9e9e9e;
             text-decoration: none;
+            font-weight: bold;
         }
-        a:hover {
+        .link:hover {
+            text-decoration: underline;
+        }
+        .nav-links {
+            margin-top: 30px;
+        }
+        .nav-links a {
+            display: inline-block;
+            margin: 10px;
+            font-size: 1em;
+            text-decoration: none;
+            color: #9e9e9e;
+        }
+        .nav-links a:hover {
             text-decoration: underline;
         }
     </style>
@@ -53,16 +52,12 @@
 <body>
     <div class="container">
         <h1>Birrell Operations</h1>
-        <p>Revenue Operations | Business Operations | Software Development</p>
-        
-        <div class="form-container">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSctffNBpYixARuTph07qzVAefw95z1MR2LdpRGaapMYiuiweg/viewform?embedded=true"
-                width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-        </div>
+        <p><a href="services.html" class="link">Revenue Operations | Business Operations | Software Development</a></p>
 
-        
-        <div class="privacy-link">
-            <a href="/privacy.html">Privacy Policy</a>
+        <div class="nav-links">
+            <a href="services.html">Services</a> |
+            <a href="contact.html">Contact Me</a> |
+            <a href="privacy.html">Privacy Policy</a>
         </div>
     </div>
 </body>
