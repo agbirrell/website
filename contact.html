@@ -18,9 +18,17 @@
             max-width: 800px;
             margin: 0 auto;
         }
+        h1, h2 {
+            text-align: center;
+            color: #1a73e8;
+        }
         h1 {
             font-size: 2em;
             margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-top: 30px;
         }
         p {
             font-size: 1.2em;
@@ -44,6 +52,24 @@
             display: flex;
             justify-content: center;
         }
+        .nav-links {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .nav-links a {
+            display: inline-block;
+            margin: 10px;
+            font-size: 1.2em;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+            transition: background-color 0.3s ease-in-out;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        .nav-links a:hover {
+            background-color: rgba(26, 115, 232, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -60,10 +86,12 @@
         </div>
 
         <div class="nav-links">
-            <a href="index.html">Home</a> |
-            <a href="services.html">Services</a> |
-            <a href="privacy.html">Privacy Policy</a>
+            <a href="index.html">Home</a>
+            <a href="contact.html">Contact Me</a>
         </div>
+    </div>
+    <div class="privacy-link">
+        <a href="privacy.html">Privacy Policy</a>
     </div>
 </body>
 </html>
